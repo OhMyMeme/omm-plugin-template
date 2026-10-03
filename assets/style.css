@@ -1,0 +1,13 @@
+/* 示例样式：注入主窗口，作用域请自带插件前缀避免污染宿主 */
+.omm-my-plugin-hello {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #1a1a1f;
+  color: #e5e7eb;
+  font-size: 12px;
+  z-index: 300;
+  pointer-events: none;
+}

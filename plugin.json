@@ -1,0 +1,13 @@
+{
+  "id": "my-plugin",
+  "name": "我的插件",
+  "version": "0.1.0",
+  "repo": "https://github.com/your-name/omm-my-plugin",
+  "api_version": 1,
+  "entry": "main.py",
+  "windows": ["main", "settings"],
+  "permissions": ["main_api", "settings:section", "assets:serve", "route"],
+  "description": "一句话描述插件的功能",
+  "author": "your-name",
+  "dependencies": []
+}
